@@ -1,0 +1,1011 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #fff;
+    background-color: #051B00;
+}
+
+main, header, footer {
+    margin: auto;
+}
+
+header{
+    color: #fff;
+    font-size: medium;
+    max-width: 100%;
+    font-weight: bold;
+    padding: 20px;    
+    position: sticky;  
+    top: 0;
+    background-color:#051B00 ;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  @media (max-width: 768px) {
+    header {
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #fff;
+}
+
+nav a:hover{
+    color: #fff;
+      color: #c3d24b;
+}
+
+.Hero h1 { 
+max-width: 100%;
+margin: auto;
+font-family: 'Helvetica Neue';
+font-weight: bold;
+align-items: center;
+max-width: 1000px;
+line-height: 1.2;
+padding-top: 100px;
+font-size: 70px;
+}
+
+@media (max-width: 768px) {
+  .Hero h1 {
+    font-size: 48px;
+    padding-top: 80px;
+    max-width: 90%; 
+    margin: 0 auto;  
+  }
+}
+@media (max-width: 480px) {
+  .Hero h1 {
+    font-size: 36px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.Hero p {
+  font-size: 32px;
+  line-height: 1.5;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  font-weight: normal;
+  padding-top: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+  .Hero p {
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Hero p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+
+.Intro-Home p {
+     font-size: 24px;
+     align-items: center;
+     max-width: 1000px;
+     margin: auto;
+     padding: 40px;
+    font-weight: normal;
+}
+
+
+@media (max-width: 768px) {
+  .Intro-Home p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Intro-Home p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.Sfumaturatesto {
+    font-weight: normal;
+    background: linear-gradient(to right,#5AA74B, #DDC40B);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.parchi-inprimopiano {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.card {
+  background: linear-gradient(to right, #5AA74B, #DDC40B);
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.015);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  display: block;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .parchi-inprimopiano {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    height: 180px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .card img {
+    height: 160px;
+  }
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.titolo {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.titolo:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.InteresseEtna h2{
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 64px;
+}
+
+@media (max-width: 768px) {
+  .InteresseEtna h2{
+    font-size: 36px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .InteresseEtna h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.Attivita p {
+  font-size: 32px;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 0;
+  align-items: center;
+}
+
+
+@media (max-width: 768px) {
+  .Attivita p{
+    font-size: 24px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Attivita p {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+}
+
+.social-footer {
+  color: white;
+  padding: 40px 20px;
+  align-items: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.social-call h2 {
+  font-size: 36px;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+}
+
+.social-call p {
+  font-size: 24px;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+ font-weight: normal;
+ padding: 20px;
+}
+
+.footer-links {
+  border-top: 1px solid #444;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: normal;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #c3d24b;
+}
+
+
+@media (max-width: 768px) {
+  .social-call h2 {
+    font-size: 30px;
+  }
+
+  .social-call p {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .footer-links a {
+    font-size: 14px;
+  }
+}
+ .Intro-Parchi p {
+  font-size: 32px;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+ font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .Intro-Parchi p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Intro-Parchi p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.parchi-tutti {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+ .Testo-Etna p{
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+ }
+
+ @media (max-width: 768px) {
+  .Testo-Etna p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Testo-Etna p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+.foto1Etna img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  margin: auto;
+  transition: transform 0.3s ease;
+}
+
+.foto1Etna img:hover {
+  transform: scale(1.01);
+}
+
+ @media (max-width: 480px) {
+  .foto1Etna img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .foto1Etna img {
+    max-width: 100%;
+  }
+}
+
+ .Testo-Etna2{
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+ }
+
+ @media (max-width: 768px) {
+  .Testo-Etna2 p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Testo-Etna2 p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+ 
+
+.InteresseEtna p {
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .InteresseEtna p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .InteresseEtna p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.GridEtna {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+  padding: 0 10px; 
+  transition: transform 0.3s ease;
+}
+
+.GridEtna:hover{
+  transform: scale(1.01);
+}
+
+
+.GridEtna img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .GridEtna {
+    grid-template-columns: 1fr;
+  }
+
+  .GridEtna img {
+    height: 180px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .GridEtna {
+    grid-template-columns: 1fr;
+  }
+
+  .GridEtna img {
+    height: 160px;
+  }
+}
+
+
+
+.continuointeressiEtna {
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .continuointeressiEtna p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .continuointeressiEtna p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.FloraeFauna-Etna h2 {
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 64px;
+}
+
+@media (max-width: 768px) {
+  .FloraeFauna-Etna h2{
+    font-size: 36px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .FloraeFauna-Etna h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.FloraeFauna-Etna p{
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .FloraeFauna-Etna p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .FloraeFauna-Etna p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+
+.InfoEtna p {
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .InfoEtna p{
+    font-size: 24px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .InfoEtna p{
+    font-size: 18px;
+    padding-top: 30px;
+  }
+}
+
+
+.Testo-Vesuvio p{
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .Testo-Vesuvio p{
+    font-size: 24px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Testo-Vesuvio p{
+    font-size: 18px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Testo-Vesuvio p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Testo-Vesuvio p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+  .Attività h1{
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    font-size: 64px;
+    padding-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .Attività h1{
+      font-size: 36px;
+      padding-top: 60px;
+      max-width: 90%;  
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Attività h1 {
+      font-size: 32px;
+      padding-top: 60px;
+      max-width: 90%;  
+      margin: 0 auto;
+    }
+  }
+  
+
+.Attività p{
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .Attività p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Attività p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.Special h2{
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 64px;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .Special h2{
+    font-size: 36px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Special h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.Special p {
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .Special p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .Special p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.Sfumaturatestospecial {
+  font-weight: bold;
+  background: linear-gradient(to right,#5AA74B, #DDC40B);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.Linea {
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+ hr {
+  width: 70%; 
+  height: 1px;
+  background-color: #ccc;
+  border: none;
+  margin: 30px auto; 
+}
+
+.fotoAttività img{
+  width: 800px;
+  height: 400px;
+  align-items: center;
+  margin-right: px;
+  margin-left: 300px;
+  margin-top: 50px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
+.ListaTrekking h2 {
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 64px;
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
+  .ListaTrekking h2{
+    font-size: 36px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekking h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.ListaTrekking p {
+  font-size: 24px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .ListaTrekking p{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekking p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.Sfumaturatestoid{
+  font-weight: normal;
+  background: linear-gradient(to right,#5AA74B, #DDC40B);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.ListaTrekkingid ul {
+  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  font-size: 24px;
+}
+
+.ListaTrekkingid ul li {
+  padding: 20px 0;
+  align-items: center;
+}
+
+.ListaTrekkingid ul li a {
+color: inherit; 
+text-decoration: none; 
+font-weight: bold; 
+}
+
+
+.ListaTrekkingid ul li a:hover {
+   color: #5AA74B;
+  text-decoration: underline; 
+
+}
+
+@media (max-width: 768px) {
+  .ListaTrekkingid ul{
+    font-size: 24px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekkingid ul{
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.ListaTrekkingid h2{
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 64px;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .ListaTrekkingid h2{
+    font-size: 36px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekkingid h2 {
+    font-size: 32px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.ListaTrekkingid h3{
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 38px;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .ListaTrekkingid h3{
+    font-size: 32px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekkingid h3 {
+    font-size: 28px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
