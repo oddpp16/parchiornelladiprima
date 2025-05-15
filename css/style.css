@@ -12,7 +12,7 @@ main, header, footer {
 
 header{
     color: #fff;
-    font-size: medium;
+    font-size: 15px;
     max-width: 100%;
     font-weight: bold;
     padding: 20px;    
@@ -27,6 +27,7 @@ header{
   @media (max-width: 768px) {
     header {
       padding-top: 20px;
+      font-size: 15px;
       display: flex;
       justify-content: space-between;
     }
@@ -35,6 +36,7 @@ header{
   @media (max-width: 480px) {
     header {
       padding-top: 20px;
+      font-size: 15px;
       display: flex;
       justify-content: space-between;
     }
@@ -69,9 +71,9 @@ font-family: 'Helvetica Neue';
 font-weight: bold;
 align-items: center;
 max-width: 1000px;
-line-height: 1.2;
+line-height: 170%;
 padding-top: 100px;
-font-size: 70px;
+font-size: 64px;
 }
 
 @media (max-width: 768px) {
@@ -93,8 +95,8 @@ font-size: 70px;
 
 
 .Hero p {
-  font-size: 32px;
-  line-height: 1.5;
+  font-size: 24px;
+  line-height: 170%;
   align-items: center;
   max-width: 1000px;
   margin: auto;
@@ -128,15 +130,16 @@ font-size: 70px;
      font-size: 24px;
      align-items: center;
      max-width: 1000px;
+     line-height: 150%;
      margin: auto;
-     padding: 40px;
+     padding: 20px;
     font-weight: normal;
 }
 
 
 @media (max-width: 768px) {
   .Intro-Home p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -145,7 +148,7 @@ font-size: 70px;
 
 @media (max-width: 480px) {
   .Intro-Home p {
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -162,7 +165,7 @@ font-size: 70px;
 .parchi-inprimopiano {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 40px;
   max-width: 1000px;
   margin: auto;
   padding: 40px 20px;
@@ -238,6 +241,7 @@ a {
   align-items: center;
   max-width: 900px;
   margin: auto;
+  padding: 20px;
   font-size: 64px;
 }
 
@@ -261,17 +265,19 @@ a {
 
 
 .Attivita p {
-  font-size: 32px;
-  max-width: 1000px;
-  margin: auto;
-  padding-top: 0;
+  font-size: 24px;
   align-items: center;
+  max-width: 1000px;
+  line-height: 150%;
+  margin: auto;
+  padding: 20px;
+ font-weight: normal;
 }
 
 
 @media (max-width: 768px) {
   .Attivita p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 40px;
   }
 }
@@ -285,20 +291,21 @@ a {
 
 .social-footer {
   color: white;
-  padding: 40px 20px;
+  padding: 60px 20px;
   align-items: center;
   font-family: 'Helvetica Neue', sans-serif;
 }
 
 .social-call h2 {
-  font-size: 36px;
+  font-size: 24px;
+  padding: 20px;
   max-width: 1000px;
   margin: auto;
   align-items: center;
 }
 
 .social-call p {
-  font-size: 24px;
+  font-size: 18px;
   align-items: center;
   max-width: 1000px;
   margin: auto;
@@ -313,14 +320,21 @@ a {
   gap: 30px;
   max-width: 1000px;
   margin: auto;
-  padding: 10px;
+
   align-items: center;
+}
+
+@media (max-width: 768px) {
+.footer-links{
+  padding: 10px;
+}
 }
 
 .footer-links a {
   color: white;
   text-decoration: none;
   font-size: 16px;
+  padding: 10px;
   font-weight: normal;
   transition: color 0.3s ease;
 }
@@ -332,20 +346,21 @@ a {
 
 @media (max-width: 768px) {
   .social-call h2 {
-    font-size: 30px;
+    font-size: 18px;
   }
 
   .social-call p {
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
   }
 
   .footer-links a {
     font-size: 14px;
+    padding: 10px;
   }
 }
  .Intro-Parchi p {
-  font-size: 32px;
+  font-size: 24px;
   align-items: center;
   max-width: 1000px;
   margin: auto;
@@ -375,25 +390,43 @@ a {
 .parchi-tutti {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  gap: 40px;
   max-width: 1000px;
   margin: auto;
   padding: 20px;
 }
 
 
+  @media (max-width: 768px) {
+    .parchi-tutti {
+      grid-template-columns: 1fr;
+    }
+  
+    .card img {
+      height: 180px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .card img {
+      height: 160px;
+    }
+  }
+
  .Testo-Etna p{
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 40px;
  }
 
  @media (max-width: 768px) {
   .Testo-Etna p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -410,7 +443,7 @@ a {
 }
 .foto1Etna img {
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   height: auto;
   display: block;
   border-radius: 12px;
@@ -424,28 +457,31 @@ a {
 
  @media (max-width: 480px) {
   .foto1Etna img {
-    max-width: 100%;
+    max-width: 400px;
   }
 }
 
 @media (max-width: 768px) {
   .foto1Etna img {
-    max-width: 100%;
+    max-width: 480px;
   }
 }
 
- .Testo-Etna2{
-  font-size: 24px;
+ 
+ 
+.Testo-Etna2 p{
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 40px;
  }
 
  @media (max-width: 768px) {
   .Testo-Etna2 p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -460,21 +496,21 @@ a {
     margin: 0 auto;
   }
 }
- 
 
 .InteresseEtna p {
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media (max-width: 768px) {
   .InteresseEtna p{
-    font-size: 24px;
-    padding-top: 60px;
+    font-size: 18px;
+padding: 30px;
     max-width: 90%;  
     margin: 0 auto;
   }
@@ -516,10 +552,12 @@ a {
 @media (max-width: 768px) {
   .GridEtna {
     grid-template-columns: 1fr;
+    max-width: 480px;
   }
 
   .GridEtna img {
     height: 180px;
+    max-width: 480px;
   }
 }
 
@@ -527,26 +565,28 @@ a {
 @media (max-width: 480px) {
   .GridEtna {
     grid-template-columns: 1fr;
+    max-width: 480px;
   }
 
   .GridEtna img {
     height: 160px;
+    max-width: 480px;
   }
 }
 
 
-
-.continuointeressiEtna {
-  font-size: 24px;
+.continuointeressiEtna p {
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
 }
 @media (max-width: 768px) {
   .continuointeressiEtna p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -572,6 +612,7 @@ a {
   max-width: 900px;
   margin: auto;
   font-size: 64px;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -593,18 +634,19 @@ a {
 }
 
 .FloraeFauna-Etna p{
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media (max-width: 768px) {
   .FloraeFauna-Etna p{
-    font-size: 24px;
-    padding-top: 60px;
+    font-size: 18px;
+padding: 30px;
     max-width: 90%;  
     margin: 0 auto;
   }
@@ -613,7 +655,7 @@ a {
 @media (max-width: 480px) {
   .FloraeFauna-Etna p {
     font-size: 18px;
-    padding-top: 60px;
+padding: 30px;
     max-width: 90%;  
     margin: 0 auto;
   }
@@ -622,55 +664,47 @@ a {
 
 
 .InfoEtna p {
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media (max-width: 768px) {
   .InfoEtna p{
-    font-size: 24px;
-    padding-top: 40px;
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 480px) {
   .InfoEtna p{
     font-size: 18px;
-    padding-top: 30px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
   }
 }
 
 
 .Testo-Vesuvio p{
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media (max-width: 768px) {
-  .Testo-Vesuvio p{
-    font-size: 24px;
-    padding-top: 40px;
-  }
-}
-
-@media (max-width: 480px) {
   .Testo-Vesuvio p{
     font-size: 18px;
-    padding-top: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .Testo-Vesuvio p{
-    font-size: 24px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -678,7 +712,7 @@ a {
 }
 
 @media (max-width: 480px) {
-  .Testo-Vesuvio p {
+  .Testo-Vesuvio p{
     font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
@@ -687,21 +721,22 @@ a {
 }
 
 
-  .Attività h1{
+
+  .Attivita h1{
     max-width: 100%;
     margin: auto;
     font-family: 'Helvetica Neue';
     font-weight: bold;
     align-items: center;
-    max-width: 900px;
-    margin: auto;
+    max-width: 1000px;
+    line-height: 170%;
+    padding-top: 100px;
     font-size: 64px;
-    padding-top: 10px;
   }
 
   @media (max-width: 768px) {
-    .Attività h1{
-      font-size: 36px;
+    .Attivita h1{
+      font-size: 48px;
       padding-top: 60px;
       max-width: 90%;  
       margin: 0 auto;
@@ -709,8 +744,8 @@ a {
   }
   
   @media (max-width: 480px) {
-    .Attività h1 {
-      font-size: 32px;
+    .Attivita h1 {
+      font-size: 48px;
       padding-top: 60px;
       max-width: 90%;  
       margin: 0 auto;
@@ -719,17 +754,15 @@ a {
   
 
 .Attività p{
-  font-size: 24px;
-  max-width: 900px;
-  width: 100%;
-  align-items: center;
-  margin: auto;
-  padding: 20px;
+  font-size: 18px;
+  padding-top: 60px;
+  max-width: 90%;  
+  margin: 0 auto;
 }
 
 @media (max-width: 768px) {
   .Attività p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -754,7 +787,7 @@ a {
   max-width: 900px;
   margin: auto;
   font-size: 64px;
-  padding-top: 10px;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -769,25 +802,26 @@ a {
 @media (max-width: 480px) {
   .Special h2 {
     font-size: 32px;
-    padding-top: 60px;
-    max-width: 90%;  
-    margin: 0 auto;
+      padding-top: 60px;
+      max-width: 90%;  
+      margin: 0 auto;
   }
 }
 
 
 .Special p {
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 150%;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 30px;
 }
 
 @media (max-width: 768px) {
   .Special p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -850,7 +884,7 @@ a {
   max-width: 900px;
   margin: auto;
   font-size: 64px;
-  padding-top: 10px;
+  padding: 20px;
 }
 @media (max-width: 768px) {
   .ListaTrekking h2{
@@ -872,17 +906,17 @@ a {
 
 
 .ListaTrekking p {
-  font-size: 24px;
+  font-size: 18px;
   max-width: 900px;
   width: 100%;
   align-items: center;
   margin: auto;
-  padding: 5px;
+  padding: 20px;
 }
 
 @media (max-width: 768px) {
   .ListaTrekking p{
-    font-size: 24px;
+    font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -891,6 +925,33 @@ a {
 
 @media (max-width: 480px) {
   .ListaTrekking p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.ListaTrekking li {
+  font-size: 18px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .ListaTrekking li{
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekking li {
     font-size: 18px;
     padding-top: 60px;
     max-width: 90%;  
@@ -907,7 +968,7 @@ a {
 }
 
 
-.ListaTrekkingid ul {
+.ListaTrekkingid li{
   margin: 0 auto;
   max-width: 900px;
   width: 100%;
@@ -958,8 +1019,8 @@ font-weight: bold;
   align-items: center;
   max-width: 900px;
   margin: auto;
-  font-size: 64px;
-  padding-top: 10px;
+  font-size: 48px;
+padding: 30px;
 }
 
 @media (max-width: 768px) {
@@ -988,13 +1049,13 @@ font-weight: bold;
   align-items: center;
   max-width: 900px;
   margin: auto;
-  font-size: 38px;
-  padding-top: 10px;
+  font-size: 32px;
+padding: 20px;
 }
 
 @media (max-width: 768px) {
   .ListaTrekkingid h3{
-    font-size: 32px;
+    font-size: 28px;
     padding-top: 60px;
     max-width: 90%;  
     margin: 0 auto;
@@ -1008,4 +1069,131 @@ font-weight: bold;
     max-width: 90%;  
     margin: 0 auto;
   }
+}
+
+.HeroAttivita h1{
+max-width: 900px;
+margin: auto;
+font-family: 'Helvetica Neue';
+font-weight: bold;
+align-items: center;
+line-height: 170%;
+padding-top: 100px;
+font-size: 64px;
+}
+
+.HeroAttivita p{
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 24px;
+padding: 60px;
+}
+
+@media (max-width: 768px) {
+  .HeroAttivita h1{
+    font-size: 36px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeroAttivita h1 {
+    font-size: 32px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .HeroAttivita p{
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .HeroAttivita p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.ListaTrekkingid li {
+  font-size: 18px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .ListaTrekkingid li{
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekkingid li {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+
+.ListaTrekkingid p {
+  max-width: 100%;
+  margin: auto;
+  font-family: 'Helvetica Neue';
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  font-size: 18px;
+padding: 60px;
+}
+
+
+@media (max-width: 768px) {
+  .ListaTrekkingid p{
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListaTrekkingid p {
+    font-size: 18px;
+    padding-top: 60px;
+    max-width: 90%;  
+    margin: 0 auto;
+  }
+}
+
+.ListaTrekkingid li h2{
+  font-size: 32px;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
 }
